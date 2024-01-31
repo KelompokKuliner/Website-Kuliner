@@ -1,0 +1,181 @@
+ body {
+    display: grid;
+    /* background: linear-gradient(chocolate,rgb(226, 211, 70), chocolate); */
+    
+}
+
+/* NAVBAR START */
+
+nav {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navbar-brand {
+    margin: 5px 130px 0px 70px;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav li a {
+    margin-right: 70px;
+    font-size: 20px;
+    transition: color 0.3s, font-size 0.5s;
+}
+
+
+.navbar-nav li a:hover {
+
+    font-size: 20.5px;
+}
+
+
+
+/* NAVBAR END */
+
+
+.carousel-inner {
+    width: 100%;
+}
+
+
+
+.teks1 {
+    text-align: center;
+    font-size:30px ;
+    font-style:oblique;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.tombol {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.kiri {
+    width: 300px;
+    margin-left: 40px;
+}
+.tengah {
+    width: 400px;
+}
+.kanan {
+    width: 300px;
+    margin-right: 5px;
+} 
+
+.klik {
+    border-radius: 40px;
+    margin: 40px 50px 200px 90px;
+    width: 200px;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+.klik:hover {
+    transform: scale(1.1);
+}
+
+.sps {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.kolom1 {
+    width: 270px;
+    margin-left: 40px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.kolom1:hover {
+    transform: scale(1.1);
+}
+
+
+.menusps {
+    margin: 50px 0px 70px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+.readmore {
+    height: 50px;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 405px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.readmore:hover {
+    transform: scale(1.1);
+}
+
+.cmbsun {
+    border-radius: 40px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+
+.tanda {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 80px;
+}
+
+.kolom2 {
+    width: 270px;
+    margin-left: 60px;
+    margin-right: 60px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.kolom2:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+
+footer {
+    background: rgb(209, 198, 198);
+    padding-top: 50px;
+    margin-top: 150px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+footer img {
+    width: 80%;
+}
+
+.footer-content h4 {
+    margin-bottom: 20px;
+    color: rgb(221, 91, 91);
+    border-bottom: 1px solid black;
+}
+
+.footer-content a{
+    color: black;
+}
+
+.bottom-bar {
+    background: gray;
+    color: rgb(209, 198, 198);
+}
+
+.footer-content p {
+    font-size: 20px;
+}
+
+

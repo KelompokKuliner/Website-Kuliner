@@ -1,0 +1,164 @@
+
+
+/* NAVBAR START */
+
+nav {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navbar-brand {
+    margin: 5px 130px 0px 70px;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav li a {
+    margin-right: 70px;
+    font-size: 20px;
+    transition: color 0.3s, font-size 0.5s;
+}
+
+.navbar-nav li a:hover {
+
+    font-size: 20.5px;
+}
+
+/* NAVBAR END */
+
+
+/* JUDUL START */
+
+.judul {
+    margin-top: 150px;
+}
+
+.judul .heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 80px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.judul img {
+    width: 50%;
+}
+
+/* JUDUL END */
+
+
+/* CONTENT START */
+
+.card {
+    border-radius: 20px;
+    /* width: 390px; */
+}
+
+.card img {
+    height: 600px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 25px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#text2 {
+    margin-top: 100px;
+}
+
+/* CONTENT END */
+
+
+/* GAMBAR START */
+.gambar {
+    margin-top: 100px;
+}
+
+.kiri {
+    width: 300px;
+    margin-left: 40px;
+}
+.tengah {
+    width: 400px;
+}
+.kanan {
+    width: 300px;
+    margin-right: 5px;
+} 
+
+
+
+/* GAMBAR END */
+
+.promo-text {
+    margin-top: 150px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.promo-text a {
+    color: red;
+    text-decoration: none;
+}
+
+.promo-text p {
+    color: red;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 150px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+footer img {
+    height: 300px;
+    width: 100%;
+}
+
+.bottom-bar {
+    background: gray;
+    color: rgb(209, 198, 198);
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width:982px){
+    .card img {
+        height: 400px;
+    }
+
+    .content .text h3 {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+
+    .content .text p {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:766px){
+    .content .text h3 {
+        padding-top: 25px;
+        font-size: 15px;
+    }
+
+    .content .text p {
+        font-size: 15px;
+    }
+}

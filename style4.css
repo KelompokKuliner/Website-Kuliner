@@ -1,0 +1,201 @@
+
+
+/* NAVBAR START */
+
+nav {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navbar-brand {
+    margin: 5px 130px 0px 70px;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav li a {
+    margin-right: 70px;
+    font-size: 20px;
+    transition: color 0.3s, font-size 0.5s;
+}
+
+.navbar-nav li a:hover {
+
+    font-size: 20.5px;
+}
+
+/* NAVBAR END */
+
+
+/* JUDUL START */
+
+.judul {
+    margin-top: 150px;
+}
+
+.judul .heading1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.judul img {
+    width: 50%;
+}
+
+/* JUDUL */
+
+
+/* OPENING NEWS START*/
+
+.text h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(177, 106, 106);
+    padding-right: 40px ;
+    padding-left: 60px ;
+}
+
+.opening-news .col img {
+    width: 480px;
+    height: 500px;
+}
+
+/* OPENING NEWS END */
+
+.heading {
+    background-color: rgb(224, 215, 215);
+    margin: 0px 350px 50px 350px;
+    padding: 8px 5px 2px 5px;
+    border-radius: 5px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.heading p {
+    font-size: 15px;
+}
+
+
+/* NEWS START */
+
+.news {
+    margin-top: 150px;
+}
+
+.news img {
+    width: 318px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.news img:hover {
+    transform: scale(1.1);
+}
+
+.news h5 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+}
+
+.news p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+/* NEWS END  */
+
+
+/* PROMO START */
+.promo {
+    margin-top: 150px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.promo .card-header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.promo .card-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+#promo-atas {
+    margin-bottom: 30px;
+}
+
+/* PROMO END */
+
+
+
+/* OUTLET START*/
+
+.title-outlet {
+    margin-top: 150px;
+}
+
+
+.gbr-outlet img{
+   width: 100%;
+}
+
+/* OUTLET END */
+
+
+/* FOOTER */
+
+footer {
+    background: rgb(209, 198, 198);
+    padding-top: 50px;
+    margin-top: 150px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+footer img {
+    width: 80%;
+}
+
+.footer-content h4 {
+    margin-bottom: 20px;
+    color: rgb(221, 91, 91);
+    border-bottom: 1px solid black;
+}
+
+.footer-content a{
+    color: black;
+}
+
+.bottom-bar {
+    background: gray;
+    color: rgb(209, 198, 198);
+}
+
+.footer-content p {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:982px){
+    .heading {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .news .row {
+        align-items: center;
+    }
+
+    .outlet img {
+        width: 620px;
+        height: 700px;
+    }
+}

@@ -1,0 +1,137 @@
+body {
+    background-image: url(gambar/wallbg1.jpg);
+    background-size: cover;
+    
+}
+
+/* NAVBAR START */
+
+nav {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navbar-brand {
+    margin: 5px 130px 0px 70px;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav li a {
+    margin-right: 70px;
+    font-size: 20px;
+    transition: color 0.3s, font-size 0.5s;
+}
+
+.navbar-nav li a:hover {
+
+    font-size: 20.5px;
+}
+
+/* NAVBAR END */
+
+
+/* JUDUL START */
+
+.judul {
+    margin-top: 150px;
+}
+
+.judul .heading {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.judul img {
+    width: 50%;
+}
+
+/* JUDUL END */
+
+
+/* FORM */
+
+.form p {
+    font-size: 23px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.form .text1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.form h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(177, 106, 106);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form h5 img {
+    width: 5%;
+    margin-right: 10px;
+}
+
+.form .col {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+
+.reser-bawah {
+    margin-top: 150px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.reser-bawah img {
+    width: 90%;
+}
+
+#text-promo {
+    padding-top: 200px;
+}
+
+#text-promo h4 {
+    color: red;
+}
+
+/* .contact .btn{
+    border-color: rgb(207, 129, 129);
+} */
+
+
+/* FOOTER */
+
+footer {
+    background: rgb(209, 198, 198);
+    padding-top: 50px;
+    margin-top: 150px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+footer img {
+    width: 80%;
+}
+
+.footer-content h4 {
+    margin-bottom: 20px;
+    color: rgb(221, 91, 91);
+    border-bottom: 1px solid black;
+}
+
+.footer-content a{
+    color: black;
+}
+
+.bottom-bar {
+    background: gray;
+    color: rgb(209, 198, 198);
+}
+
+.footer-content p {
+    font-size: 20px;
+}
